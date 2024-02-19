@@ -1,0 +1,123 @@
+body {
+   font-family: 'Playfair Display', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 0;
+}
+
+/*Header Here*/
+header {
+    background-color: #FCFFF5; 
+    padding: 1rem 2vw;
+}
+header h1 {
+    margin: 0;
+    color: #193441;
+    letter-spacing: 12px;
+}
+header p {
+    margin: 0;
+    color: #193441;
+}
+
+/*navigation here*/
+nav{
+    background-color: #D1DBBD;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0 2vw;
+    margin: 0;
+    display: flex;
+}
+nav a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #193441;
+    font-weight: 700;
+    display:block;
+    padding: .83rem 2rem;
+}
+nav li.active a {
+    background-color: #193441;
+    color: #D1DBBD;
+}
+nav a:hover {
+    color: white;
+}
+
+/*Main here*/
+main {
+    padding: 1rem 2vw;
+}
+main h1 {
+    color: #405952;
+}
+main h2 {
+    color: #193441;
+    margin-bottom: .2rem;
+}
+main p {
+    color: #2f3133;
+    margin: 0 0 .3rem 0;
+}
+main ol {
+    padding: .5rem 3vw; 
+    background-color: #FCFFF5;
+}
+main dl dt {
+    color: #405952;
+    font-weight: 700;
+}
+main dl dd {
+    color: #193441;
+    font-size: .9rem;
+}
+main ul {
+    list-style-type: circle;
+}
+main ul li {
+    line-height: 125%;
+    margin-bottom: .5rem;
+    font-size: .9rem;
+}
+main address {
+    font-style: normal;
+    background-color: #D1DBBD;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #193441;
+    border-radius: 5px;
+}
+main a {
+    color: #193441;
+}
+main a:hover {
+    color: rgb(239,0,24);
+}
+
+/*footer here*/
+footer {
+    background-color: #FCFFF5;
+    text-align: center;
+    color: #193441;
+    padding: 1rem;
+    font-size: .8rem; 
+}
+footer a {
+    color: #193441;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
