@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Bookish: Home</title>
+        <link rel="stylesheet" href="books.css">
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="UTF-8">
+        <meta name="description" content="Learn about books, authors and connect with other readers">
+        <meta name="author" content="Eliza Kimball">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+        
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        
+    </head>
+    <body>
+        <!-- Start off the page header -->
+        <header>
+            <img src="images/logo.png" alt="site logo" width="100" height="91">
+            <div>
+                <h1>Bookish</h1>
+                <p>Where Worlds Come to Life</p>
+            </div>
+        </header>
+        <!-- Start off the page navigation -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="browse.html">Browse Books</a></li>
+                <li><a href="bookshelf.html">Bookshelf</a></li>
+                <li class="active"><a href="buy.html">Buy Books</a></li>
+            </ul>
+        </nav>
+        <!-- Start off the page content -->
+        <main>
+            <h1>Buy Books</h1>
+            <form method="get" class="myForm" action="thanks.html">
+                <fieldset>
+                    <legend>Customer Information</legend>
+                    <label>First Name*<input type="text" name="fname" required></label>
+                    <label>Last Name*<input type="text" name="lname" required></label>
+                    <label>Cell Number*<input type="tel" name="phone" required placeholder="467-333-5129"></label>
+                    <label>Email*<input type="email" name="email" required placeholder="johndoe@gmail.com"></label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Payment Method</legend>
+                    <label><input type="radio" name="method" value="debit">Debit Card</label>
+                    <label><input type="radio" name="method" value="credit">Credit Card</label>
+                    <label><input type="radio" name="method" value="cash">Cash/Checkbook</label>
+                </fieldset>
+                
+                <fieldset>
+                    <legend>Delivery Options</legend>
+                    <label><input type="checkbox" name="gatsby" value="chosen">The Great Gatsby</label>
+                    <label><input type="checkbox" name="potter" value="chosen">Harry Potter and the Sorcerer's Stone</label>
+                    <label><input type="checkbox" name="pride" value="chosen">Pride and Prejudice</label>
+                    <label><input type="checkbox" name="oceans" value="chosen">The Light Between Oceans</label>
+                    
+                    <label>Shipping Options
+                        <select name="shipping">
+                        <option value="none">Please Select</option>
+                        <option value="overnight">Overnight Shipping</option>
+                        <option value="priority">Priority Shipping(1-3 days)</option>
+                        <option value="local">Local Shipping(3-5 days)</option>
+                        </select>
+                    </label>
+                </fieldset>
+                
+                <label>Comments
+                    <textarea name="comments"></textarea>
+                </label>
+                
+                <input type="submit" value="Buy Book Order">
+            </form>
+            
+           
+        </main>
+        <!-- Start off the page footer -->
+        <footer>
+            <p>&copy; 2024 &bull; Eliza Kimball &bull; <a href="mailto:elizajkimball@gmail.com">Email Us</a></p>
+        </footer>
+    </body>
+</html>
